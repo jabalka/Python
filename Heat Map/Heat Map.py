@@ -85,5 +85,15 @@ plt.text(
     rotation=0,
     family='sans-serif',
     size=10)
+plt.text(
+    120, 350,
+    s=f'Threashold Value:  {Threashold}',
+    color='#696969',
+    weight='bold',
+    verticalalignment='bottom',
+    horizontalalignment='center',
+    rotation=0,
+    family='sans-serif',
+    size=8)
 
 plt.show()
